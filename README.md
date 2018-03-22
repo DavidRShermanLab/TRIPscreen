@@ -1,2 +1,4 @@
 # TRIPscreen
-Code used to process sequencing data from Transcriptional Regulon Induced Phenotype screen
+Shuyi Ma March 2018
+
+Code used to process sequencing data from Transcriptional Regulator Induced Phenotype screen
