@@ -213,7 +213,8 @@ INHvUTsummary$INHdiffUT = INHvUTsummary$INH - INHvUTsummary$Untreated
 
 INHvUTsummary$zUT = t(dataDeltaTimezscoreAvgExpAvg[dataDeltaTimezscoreAvgExpAvg$Drug == 'Untreated',TFIb])
 INHvUTsummary$zINH1 = t(dataDeltaTimezscoreAvgExpAvg[dataDeltaTimezscoreAvgExpAvg$Drug == 'INH',TFIb])
-
+INHvUTsummary$TpUT = t(dataDeltaTimepvalT[dataDeltaTimepvalT$Drug == 'Untreated',TFIb])
+INHvUTsummary$TpINH1 = t(dataDeltaTimepvalT[dataDeltaTimepvalT$Drug == 'INH',TFIb])
 write.csv(INHvUTsummary,'TRIPINH1vUntreatedAvg.csv')
 
 
